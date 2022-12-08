@@ -46,7 +46,7 @@ with col9:
 	ST_Slope = st.selectbox('ST_Slope',sorted(ST_Slope1))
     
 
-if st.button('Predict Score'):
+if st.button('Predict'):
     input_df = pd.DataFrame(
      {'Age':[Age],'Sex':[Sex],'ChestPainType':[ChestPainType],'RestingBP':[RestingBP],'FastingBS':[FastingBS],'RestingECG':[RestingECG],'ExerciseAngina':[ExerciseAngina],'Oldpeak':[Oldpeak],'ST_Slope':[ST_Slope]})
     result = pipe.predict(input_df)
