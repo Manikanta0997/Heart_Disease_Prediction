@@ -57,5 +57,5 @@ if st.button('Predict'):
     	result = "Danger"
     st.header("Predicted  - " + result)
 
-st.header("Note: It is only for educational purose")
+st.header("Note: It is only for educational purpose")
 st.write("MANIKANTA")
