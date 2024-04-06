@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-st.title('Lung_Cancer_Visualization')
+st.title('Heart_Disease_Visualization')
 
 st.header('1.How data looks like after converting it into dataframe:') 
 img = Image.open('WEB/1.jpeg')
